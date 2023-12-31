@@ -45,5 +45,9 @@ def delete(request, pk):
     context = {'item' : item}
     return render(request,'delete.html', context)
     
+
+
+
+    
     
 
